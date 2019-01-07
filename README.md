@@ -1,0 +1,1 @@
+# @tailify/stylelint-config
