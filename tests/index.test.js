@@ -8,7 +8,7 @@ it('should not contain invalid rules', async () => {
     codeFilename: 'valid.css',
     configFile: './lib/index.js',
   });
-  const { warnings} = results[0];
+  const { warnings } = results[0];
 
   expect(errored).toBeFalsy();
   expect(warnings.length).toBe(0);
