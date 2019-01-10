@@ -23,3 +23,9 @@ deploy:
     node: 10
     repo: "${TRAVIS_REPO_SLUG}"
     tags: true
+
+notifications:
+  slack:
+    on_success: always
+    rooms:
+      secure: j6I/HhJnNlkelB044pI2P6jj/Tj4r+gqCOwNWLu6+yTk6VwpnbLl34ZjZihcYiIuhhHA1OMN//hh1ocNLoBCyEmSrqmqcByE1DT0ouefQXgdlsiUQ7um82VOuGywMnVtMKUGycCyI0eFepGjHeYJEAsh19MMwdkYs3M38b/bRe6aDrD4QuxMU8oV7J/4SQ/x14ZdrayFCF+HHka4OHi1ywOIbIsmoEefjVIo4NK4p7DUec9QNrhoE5PDhaAecdKeE0w+dgdfKoQc9Hw6XD4SE/u7xBCBuPcP4EK91aKS4YAPCgOACyTnfsM93XRybrCzB0iMvyfZzEZhzdYlj3uSX5o9EMjwfLuye9EVGA7cQp0+n8+/FxpEq6m7DGHOkxa6+Y3pJR/OSzP2pvc9JkAOko8DoZ7CU+5f1ZMce/A6bwPotghohe5L1dZNzMg4WSQoU9EW9baSaRZfbGzqXW1ZAbnW8KYUBU87nCTwFKqhzTvrIQI0fZXS3+qKxe8bQvYbILP+TpGJt+7HjfVi1DWiMgUqwvjr/1i2UfxiOiOldsjFLp707qvkg+nqMXSUKmqT38emjbd6iY6WOPakxJOXEkCf28b6o6E0I3MC49ocGUTFx2gIunriZV81X3v5KQDtpQcLVeNPRYxo7ZaN6XsOUfy9j0/3RhvBzbVzfqpu6cc=
