@@ -4,7 +4,7 @@ const stylelint = require('stylelint');
 
 it('should not contain invalid rules', async () => {
   const { errored, results } = await stylelint.lint({
-    code: 'a { font-weight: 500; }\n',
+    code: 'a {\n  font-weight: 500;\n}\n',
     codeFilename: 'valid.css',
     configFile: './lib/index.js',
   });
