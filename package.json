@@ -37,7 +37,7 @@
     "stylelint": "^10.0.0"
   },
   "engines": {
-    "node": ">=8"
+    "node": ">=8.7"
   },
   "greenkeeper": {
     "commitMessages": {
