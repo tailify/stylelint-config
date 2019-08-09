@@ -26,7 +26,7 @@
     "stylelint-prettier": "1.1.1"
   },
   "devDependencies": {
-    "@tailify/eslint-config-legacy": "^3.0.0",
+    "@tailify/eslint-config-legacy": "^5.0.0",
     "@tailify/prettier-config": "^1.0.0",
     "eslint": "^6.0.0",
     "jest": "^24.7.0",
